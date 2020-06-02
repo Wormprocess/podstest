@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		825175E42484CF5B0044F2E6 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = 825175E22484CF5B0044F2E6 /* User.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825175E52484CF5B0044F2E6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 825175E32484CF5B0044F2E6 /* User.m */; };
-		825175E72484D0870044F2E6 /* HXPodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 825175DA2484CE0A0044F2E6 /* HXPodTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825175E82484D1EF0044F2E6 /* User.m in Headers */ = {isa = PBXBuildFile; fileRef = 825175E32484CF5B0044F2E6 /* User.m */; };
+		82CA09EB248652BB00FC0C56 /* HHXPodsNew.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CA09E9248652BB00FC0C56 /* HHXPodsNew.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CA09F3248652D300FC0C56 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CA09F1248652D300FC0C56 /* User.m */; };
+		82CA09F4248652D300FC0C56 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CA09F2248652D300FC0C56 /* User.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		825175D72484CE0A0044F2E6 /* HXPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		825175DA2484CE0A0044F2E6 /* HXPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXPodTest.h; sourceTree = "<group>"; };
-		825175DB2484CE0A0044F2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		825175E22484CF5B0044F2E6 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		825175E32484CF5B0044F2E6 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		82CA09E6248652BB00FC0C56 /* HHXPodsNew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHXPodsNew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CA09E9248652BB00FC0C56 /* HHXPodsNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHXPodsNew.h; sourceTree = "<group>"; };
+		82CA09EA248652BB00FC0C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CA09F1248652D300FC0C56 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		82CA09F2248652D300FC0C56 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		825175D42484CE0A0044F2E6 /* Frameworks */ = {
+		82CA09E3248652BB00FC0C56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,82 +31,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		825175CD2484CE0A0044F2E6 = {
+		82CA09DC248652BB00FC0C56 = {
 			isa = PBXGroup;
 			children = (
-				825175D92484CE0A0044F2E6 /* HXPodTest */,
-				825175D82484CE0A0044F2E6 /* Products */,
+				82CA09E8248652BB00FC0C56 /* HHXPodsNew */,
+				82CA09E7248652BB00FC0C56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		825175D82484CE0A0044F2E6 /* Products */ = {
+		82CA09E7248652BB00FC0C56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				825175D72484CE0A0044F2E6 /* HXPodTest.framework */,
+				82CA09E6248652BB00FC0C56 /* HHXPodsNew.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		825175D92484CE0A0044F2E6 /* HXPodTest */ = {
+		82CA09E8248652BB00FC0C56 /* HHXPodsNew */ = {
 			isa = PBXGroup;
 			children = (
-				825175DA2484CE0A0044F2E6 /* HXPodTest.h */,
-				825175E22484CF5B0044F2E6 /* User.h */,
-				825175E32484CF5B0044F2E6 /* User.m */,
-				825175DB2484CE0A0044F2E6 /* Info.plist */,
+				82CA09E9248652BB00FC0C56 /* HHXPodsNew.h */,
+				82CA09F2248652D300FC0C56 /* User.h */,
+				82CA09F1248652D300FC0C56 /* User.m */,
+				82CA09EA248652BB00FC0C56 /* Info.plist */,
 			);
-			path = HXPodTest;
+			path = HHXPodsNew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		825175D22484CE0A0044F2E6 /* Headers */ = {
+		82CA09E1248652BB00FC0C56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825175E72484D0870044F2E6 /* HXPodTest.h in Headers */,
-				825175E42484CF5B0044F2E6 /* User.h in Headers */,
-				825175E82484D1EF0044F2E6 /* User.m in Headers */,
+				82CA09EB248652BB00FC0C56 /* HHXPodsNew.h in Headers */,
+				82CA09F4248652D300FC0C56 /* User.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		825175D62484CE0A0044F2E6 /* HXPodTest */ = {
+		82CA09E5248652BB00FC0C56 /* HHXPodsNew */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 825175DF2484CE0A0044F2E6 /* Build configuration list for PBXNativeTarget "HXPodTest" */;
+			buildConfigurationList = 82CA09EE248652BB00FC0C56 /* Build configuration list for PBXNativeTarget "HHXPodsNew" */;
 			buildPhases = (
-				825175D22484CE0A0044F2E6 /* Headers */,
-				825175D32484CE0A0044F2E6 /* Sources */,
-				825175D42484CE0A0044F2E6 /* Frameworks */,
-				825175D52484CE0A0044F2E6 /* Resources */,
+				82CA09E1248652BB00FC0C56 /* Headers */,
+				82CA09E2248652BB00FC0C56 /* Sources */,
+				82CA09E3248652BB00FC0C56 /* Frameworks */,
+				82CA09E4248652BB00FC0C56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HXPodTest;
-			productName = HXPodTest;
-			productReference = 825175D72484CE0A0044F2E6 /* HXPodTest.framework */;
+			name = HHXPodsNew;
+			productName = HHXPodsNew;
+			productReference = 82CA09E6248652BB00FC0C56 /* HHXPodsNew.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		825175CE2484CE0A0044F2E6 /* Project object */ = {
+		82CA09DD248652BB00FC0C56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Worm;
 				TargetAttributes = {
-					825175D62484CE0A0044F2E6 = {
+					82CA09E5248652BB00FC0C56 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 825175D12484CE0A0044F2E6 /* Build configuration list for PBXProject "HXPodTest" */;
+			buildConfigurationList = 82CA09E0248652BB00FC0C56 /* Build configuration list for PBXProject "HHXPodsNew" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,18 +113,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 825175CD2484CE0A0044F2E6;
-			productRefGroup = 825175D82484CE0A0044F2E6 /* Products */;
+			mainGroup = 82CA09DC248652BB00FC0C56;
+			productRefGroup = 82CA09E7248652BB00FC0C56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				825175D62484CE0A0044F2E6 /* HXPodTest */,
+				82CA09E5248652BB00FC0C56 /* HHXPodsNew */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		825175D52484CE0A0044F2E6 /* Resources */ = {
+		82CA09E4248652BB00FC0C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,18 +134,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		825175D32484CE0A0044F2E6 /* Sources */ = {
+		82CA09E2248652BB00FC0C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				825175E52484CF5B0044F2E6 /* User.m in Sources */,
+				82CA09F3248652D300FC0C56 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		825175DD2484CE0A0044F2E6 /* Debug */ = {
+		82CA09EC248652BB00FC0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		825175DE2484CE0A0044F2E6 /* Release */ = {
+		82CA09ED248652BB00FC0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,84 +261,74 @@
 			};
 			name = Release;
 		};
-		825175E02484CE0A0044F2E6 /* Debug */ = {
+		82CA09EF248652BB00FC0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6VMWM32VG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HXPodTest/Info.plist;
+				INFOPLIST_FILE = HHXPodsNew/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsunami.HXPodTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsunami.HHXPodsNew;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		825175E12484CE0A0044F2E6 /* Release */ = {
+		82CA09F0248652BB00FC0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L6VMWM32VG;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HXPodTest/Info.plist;
+				INFOPLIST_FILE = HHXPodsNew/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tsunami.HXPodTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsunami.HHXPodsNew;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		825175D12484CE0A0044F2E6 /* Build configuration list for PBXProject "HXPodTest" */ = {
+		82CA09E0248652BB00FC0C56 /* Build configuration list for PBXProject "HHXPodsNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				825175DD2484CE0A0044F2E6 /* Debug */,
-				825175DE2484CE0A0044F2E6 /* Release */,
+				82CA09EC248652BB00FC0C56 /* Debug */,
+				82CA09ED248652BB00FC0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		825175DF2484CE0A0044F2E6 /* Build configuration list for PBXNativeTarget "HXPodTest" */ = {
+		82CA09EE248652BB00FC0C56 /* Build configuration list for PBXNativeTarget "HHXPodsNew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				825175E02484CE0A0044F2E6 /* Debug */,
-				825175E12484CE0A0044F2E6 /* Release */,
+				82CA09EF248652BB00FC0C56 /* Debug */,
+				82CA09F0248652BB00FC0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 825175CE2484CE0A0044F2E6 /* Project object */;
+	rootObject = 82CA09DD248652BB00FC0C56 /* Project object */;
 }

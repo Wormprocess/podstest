@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HXPodTest.xcodeproj">
+      location = "self:HHXPodsNew.xcodeproj">
    </FileRef>
 </Workspace>
